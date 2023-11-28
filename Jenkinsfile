@@ -36,6 +36,7 @@ pipeline {
         stage('Monitor') {
             steps {
                 echo 'Monitor app'
+                echo  'Maintainance'
             }
         }
     }
