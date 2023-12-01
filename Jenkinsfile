@@ -26,6 +26,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploy app'
+                echo  'Deployment app'
             }
         }
         stage('Operate') {
