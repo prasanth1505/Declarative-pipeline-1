@@ -32,6 +32,7 @@ pipeline {
         stage('Operate') {
             steps {
                 echo 'Operate app'
+                echo 'Operation app'
             }
         }
         stage('Monitor') {
